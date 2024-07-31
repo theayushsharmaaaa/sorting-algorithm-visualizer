@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1400px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.controls button, .controls select {
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 18px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
+}
+
+.controls button:hover, .controls select:hover {
+    background-color: #45a049;
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+#pauseSort {
+    background-color: #ff5722; /* Bright orange */
+}
+
+#pauseSort:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+}
+
+#resumeSort {
+    background-color: #4caf50; /* Bright green */
+}
+
+#resumeSort:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+#arrayContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 70%;
+    height: 500px;
+    border: 1px solid white;
+    background-color: #2e2e4f;
+}
+
+.array-bar {
+    margin: 0 1px;
+    width: 100%;
+    background-color: #6200ea; /* Default bar color */
+    transition: height 0.2s, background-color 0.3s; /* Smooth transition */
+}
+
+.complexity {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #b0bec5;
+}
+
+footer a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

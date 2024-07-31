@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <h1>Sorting Visualizer</h1>
+            <div class="step">
+                <label for="arraySize">Choose Array Size:</label>
+                <select id="arraySize">
+                    <option value="10">10</option>
+                    <option value="20">20</option>
+                    <option value="30">30</option>
+                    <option value="40">40</option>
+                    <option value="50">50</option>
+                </select>
+            </div>
+            <div class="step">
+                <button id="generateArray">Generate New Array</button>
+            </div>
+            <div class="step">
+                <label for="algorithm">Select Sorting Algorithm:</label>
+                <select id="algorithm">
+                    <option value="bubble">Bubble Sort</option>
+                    <option value="insertion">Insertion Sort</option>
+                    <option value="selection">Selection Sort</option>
+                    <option value="quick">Quick Sort</option>
+                    <option value="merge">Merge Sort</option>
+                </select>
+            </div>
+            <div class="step">
+                <button id="startSort">Start Sorting</button>
+            </div>
+            <div class="step">
+                <button id="pauseSort">Pause</button>
+                <button id="resumeSort">Resume</button>
+            </div>
+            <div class="step">
+                <label for="speed">Sorting Speed:</label>
+                <select id="speed">
+                    <option value="25">Very Fast</option>
+                    <option value="50">Fast</option>
+                    <option value="100">Medium</option>
+                    <option value="200">Slow</option>
+                    <option value="400">Very Slow</option>
+                </select>
+            </div>
+            <div class="complexity">
+                <h2>Algorithm Complexity</h2>
+                <p id="timeComplexity"></p>
+                <p id="spaceComplexity"></p>
+            </div>
+        </div>
+        <div id="arrayContainer"></div>
+    </div>
+    <footer>Created by Ayush Sharma | GitHub: @theayushsharmaaaa</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
