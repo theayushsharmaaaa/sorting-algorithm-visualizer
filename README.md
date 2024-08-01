@@ -1,6 +1,8 @@
-# Sorting Visualizer
+# Sorting Algorithm Visualizer
 
 This project is a web application that visualizes different sorting algorithms. It allows users to generate arrays of different sizes, choose a sorting algorithm, and see the sorting process animated.
+
+## Access Project here: [Click here!](https://theayushsharmaaaa.github.io/sorting-algorithm-visualizer/)
 
 ## Features
 
