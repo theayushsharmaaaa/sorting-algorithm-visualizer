@@ -27,4 +27,4 @@ To run this project, you need a web browser that supports HTML, CSS, and JavaScr
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/sorting-visualizer.git
+   git clone https://github.com/theayushsharmaaaa/sorting-visualizer.git
